@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kyle Chutjian's Website</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="websiteContainer" id="top">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <!-- <div class="navbar-brand navbar-name">Kyle Chutjian</div> -->
+            <a href="#top" class="navbar-brand navbar-name">Kyle Chutjian</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-target" style="margin-right:2%">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse  justify-content-end" style="margin-right:2%" id="collapse-target">
+              <div class="navbar-nav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-me">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#contact-container">Contact</a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://drive.google.com/file/d/14zzmROFUVUqsdjHxxiTss2h_g65R_jTF/view?usp=sharing" target="_blank">Resume</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!-- My Name -->
+        <div class="nameContainer">
+            <div class="fullName">
+                <h1>Kyle Chutjian</h1>
+            </div>
+
+            <div class="underName">
+                <div class="beforeChangingWord">
+                    I'm ready to 
+                </div>
+                <div id="changingWord">
+                    Learn
+                </div>
+            </div>
+        </div>
+
+        <!-- About Me -->
+        <div class="about">
+            <div id="about-me">
+                <h1 class="header">About Me</h1>
+            </div>
+
+                <div>
+                    <div class="about-me-paragraph">
+                        <p>
+                            Hi, I'm Kyle! 
+                            I'm an upcoming developer, currently in my senior year at Quinnipiac University.
+                            I'm a Software Engineering major, with a minor in Mathematics.
+                            While I'm currently based in the Montvale, NJ area, I'm comfortable with relocating.
+                        </p>
+                        <p>
+                          I spent this summer working as a Data Engineering intern at The Hartford. 
+                          In this role, I became proficient with Tableau, Tealium, and SharePoint.
+                          Some highlights include a fraudulent dashboard for Hartford's new employer website and 
+                          a completed website redesign for The Hartford's Enterprise Data Office. 
+                        </p>
+                        <p>
+                            Although Java is my bread and butter, I have extensive experience with JavaScript, Python, and SQL. 
+                            TypeScript, Angular, and Spring are on my to do list.
+                        </p>
+                        <p>
+                            Coding is not my entire life, unfortunately.
+                            I love boating on the Hudson River with my family during the summers,
+                            and watching the NBA is my favorite passtime.
+                            My favorite team is the Brooklyn Nets.
+                        </p>
+                        <p>
+                          Check out my resume for best forms of contact.
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./images/me.jpg" class="me-image" alt="Me">
+                </div>
+
+
+        </div>
+
+        <!-- Projects -->
+        <div id="projects">
+            <h1>My Projects</h1>
+
+            <!-- Top Row -->
+            <div class="row">
+              <!-- Curiosity -->
+              <div class="col-lg-4 single-project-container">
+                <div class="single-project">
+                  <div class="top-container">
+                    <h5 class="project-title">Curiosity Game</h5>
+                    <hr class="hr-project-top">
+                    <p class="project-type">Java | Java Swing</p>
+                  </div>
+                  <div class="project-body">
+                    <p class="project-description">
+                      Worked with a group of four students where we made numerous enhancements to a pre-existing Java Swing program.
+                      During this process, we completed five scrum sprint cycles, the documentation is available upon request.
+                      <!-- The game is a 2D-platformer with 15 levels where the player can collect coins, adventure through custom maps, and follow a story. -->
+                    </p>
+                  </div>
+                  <div class="project-bottom">
+                    <span class="github-link">
+                        <a href="https://github.com/KyleChutjian/Team-A3-Git-Repository" target="_blank"><img src="./images/github.png"></a>
+                    </span>
+                    <span class="youtube-link">
+                      <a href="https://www.youtube.com/watch?v=aIjiJVCWppQ&ab_channel=Kyle%2C" target="_blank"><img src="./images/youtube.png"></a>
+                  </span>
+                    
+                  </div>
+                </div>
+            </div>
+
+                <!-- GeoQuiz -->
+              <div class="col-lg-4 single-project-container">
+                  <div class="single-project">
+                    <div class="top-container">
+                      <h5 class="project-title">GeoQuiz</h5>
+                      <hr class="hr-project-top">
+                      <p class="project-type">Java | XML | SQLite | Android</p>
+                    </div>
+                    <div class="project-body">
+                      <p class="project-description">
+                        Made an educational android application for geography users.
+                        Option to learn about all 50 US states, or to take a quiz.
+                        Can compete for the fastest score on the leaderboard, or play casually.
+                        Utilizes SQLite to load the 50 states and to query leaderboard results.
+                      </p>
+                    </div>
+                    <div class="project-bottom">
+                      <span class="github-link">
+                          <a href="https://github.com/KyleChutjian/GeoQuiz" target="_blank"><img src="./images/github.png"></a>
+                      </span>
+                      <!-- Update this when demo is finished -->
+                      <!-- <span class="youtube-link">
+                          <a href="https://www.youtube.com/watch?v=r1ads52o4rU" target="_blank"><img src="./images/youtube.png"></a>
+                      </span> -->
+                    </div>
+                  </div>
+              </div>
+              <!-- Brooklyn Nets Face Recognizer -->
+              <div class="col-lg-4 single-project-container">
+                <div class="single-project">
+                  <div class="top-container">
+                    <h5 class="project-title">Brooklyn Nets Face Recognizer</h5>
+                    <hr class="hr-project-top">
+                    <p class="project-type">Python | OpenCV</p>
+                  </div>
+                  <div class="project-body">
+                    <p class="project-description">
+                      Since I am an avid Brooklyn Nets fan, I wanted to create a program related to the team.
+                      This program uses a webcam to take a picture of your face, and return an image showing which player you most resemble.
+                      The README describes how to use the program.
+                    </p>
+                  </div>
+                  <div class="project-bottom">
+                    <span class="github-link">
+                        <a href="https://github.com/KyleChutjian/BrooklynNets-FaceRecognizer" target="_blank"><img src="./images/github.png"></a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br/>
+            <!-- 2nd Row -->
+            <div class="row">
+              <!-- Timely -->
+              <div class="col-lg-4 single-project-container">
+                <div class="single-project">
+                  <div class="top-container">
+                    <h5 class="project-title">Timely: Student Time Tracker</h5>
+                    <hr class="hr-project-top">
+                    <p class="project-type">HTML | CSS | Bootstrap
+                    </p>
+                  </div>
+                  <div class="project-body">
+                    <p class="project-description">
+                      Interviewed the Quinnipiac Dean of Engineering for software requirements of a student tracker application.
+                      The website allows faculty to view student's logged hours in a specific course and export the data into a CSV file.
+                    </p>
+                  </div>
+                  <div class="project-bottom">
+                    <span class="github-link">
+                        <a href="https://github.com/KyleChutjian/Timely" target="_blank"><img src="./images/github.png"></a>
+                    </span>
+                    <!-- <span class="youtube-link">
+                        <a href="https://www.youtube.com/watch?v=eMf799NCgws&ab_channel=Kyle" target="_blank"><img src="./images/youtube.png"></a>
+                    </span> -->
+                  </div>
+                </div>
+              </div>
+                <!-- Video Game Sales -->
+              <div class="col-lg-4 single-project-container">
+                <div class="single-project">
+                  <div class="top-container">
+                    <h5 class="project-title">Video Game Sales</h5>
+                    <hr class="hr-project-top">
+                    <p class="project-type">Python | SQL | Jupyter | Google Cloud</p>
+                  </div>
+                  <div class="project-body">
+                    <p class="project-description">
+                      Used a sample of the Video Game Sales dataset and inserted data into Google Cloud SQL tables.
+                      Queried from SQL tables into Python, creating Plotly graphs of the data.
+                    </p>
+                    <div>The Jupyter Notebook file can be requested.</div>
+                  </div>
+                  <div class="project-bottom">
+                    <span class="github-link">
+                        <a href="https://github.com/KyleChutjian/VideoGameSales" target="_blank"><img src="./images/github.png"></a>
+                    </span>
+                    <!-- <span class="youtube-link">
+                        <a href="https://www.youtube.com/watch?v=r1ads52o4rU" target="_blank"><img src="./images/youtube.png"></a>
+                    </span> -->
+                  </div>
+                </div>
+              </div>
+              <!-- Discord Uno Bot -->
+              <div class="col-lg-4 single-project-container">
+                <div class="single-project">
+                  <div class="top-container">
+                    <h5 class="project-title">Discord Uno Bot</h5>
+                    <hr class="hr-project-top">
+                    <p class="project-type">JavaScript | Discord JS</p>
+                  </div>
+                  <div class="project-body">
+                    <p class="project-description">
+                      Completed an 11 week cycle of learning Discord.js and improving my JavaScript skills.
+                      The Discord Bot allows 2-6 players to play Uno together.
+                      Reference the README and other documentation provided to learn what it looks like.
+                      
+                    </p>
+                  </div>
+                  <div class="project-bottom">
+                    <span class="github-link">
+                        <a href="https://github.com/KyleChutjian/UnoDiscordBot" target="_blank"><img src="./images/github.png"></a>
+                    </span>
+                    <span class="youtube-link">
+                      <a href="https://youtu.be/47T6x8SvGb8" target="_blank"><img src="./images/youtube.png"></a>
+                  </span>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <!-- 3rd Row -->
+            <div class="row">
+              <!-- Website -->
+              <div class="col-lg-4 single-project-container">
+                <div class="single-project">
+                  <div class="top-container">
+                    <h5 class="project-title">Website</h5>
+                    <hr class="hr-project-top">
+                    <p class="project-type">HTML | CSS | JavaScript | Bootstrap</p>
+                  </div>
+                  <div class="project-body">
+                    <p class="project-description">
+                      I made this website you are looking at. 
+                      Still optimizing the responsiveness in my free time.
+                      A lot of Bootstrap is used for a responsive result, which I cannot take much
+                      credit for, but HTML, CSS, and the rotating JavaScript text I wrote.
+                    </p>
+                  </div>
+                  <div class="project-bottom">
+                    <span class="github-link">
+                        <a href="https://github.com/KyleChutjian/KyleChutjian.github.io" target="_blank"><img src="./images/github.png"></a>
+                    </span>
+                    
+                  </div>
+                </div>
+              </div>
+              <!-- PvZ Coin Collector -->
+              <div class="col-lg-4 single-project-container">
+                <div class="single-project">
+                  <div class="top-container">
+                    <h5 class="project-title">PvZ Coin Collector</h5>
+                    <hr class="hr-project-top">
+                    <p class="project-type">Python | OpenCV</p>
+                  </div>
+                  <div class="project-body">
+                    <p class="project-description">
+                      This is a fun script I made for the Plants vs. Zombies video game. 
+                      It uses image detection to find coins, and PyAutoGUI to move and click your mouse. 
+                      The README describes how to use the program, and the YouTube video shows me demonstrating what it looks like.
+                    </p>
+                  </div>
+                  <div class="project-bottom">
+                    <span class="github-link">
+                        <a href="https://github.com/KyleChutjian/PvZ-Coin-Collector" target="_blank"><img src="./images/github.png"></a>
+                    </span>
+                    <span class="youtube-link">
+                        <a href="https://www.youtube.com/watch?v=eMf799NCgws&ab_channel=Kyle" target="_blank"><img src="./images/youtube.png"></a>
+                    </span>
+                  </div>
+                </div>
+              </div>    
+              <!-- CitiesNearLocation -->
+              <div class="col-lg-4 single-project-container">
+                <div class="single-project">
+                  <div class="top-container">
+                    <h5 class="project-title">Cities Near Location</h5>
+                    <hr class="hr-project-top">
+                    <p class="project-type">Java | XML | REST | Android</p>
+                  </div>
+                  <div class="project-body">
+                    <p class="project-description">
+                      This android application utilizes a REST API that returns nearby cities when you input coordinates on Google Maps. 
+                      The results screen displays the five closest cities to the position you picked on the map.
+                    </p>
+                  </div>
+                  <div class="project-bottom">
+                    <span class="github-link">
+                        <a href="https://github.com/KyleChutjian/CitiesNearLocation" target="_blank"><img src="./images/github.png"></a>
+                    </span>
+                    <span class="youtube-link">
+                        <a href="https://www.youtube.com/watch?v=r1ads52o4rU" target="_blank"><img src="./images/youtube.png"></a>
+                    </span>
+                  </div>
+                </div>
+              </div>        
+            </div>
+
+            <hr>
+            <!-- <div id="contact-container">
+              <h1 class="contact-header">Contact Information</h1>
+                  <span class="contact-item github2-link">
+                    <a href="https://github.com/KyleChutjian/" target="_blank"><img src="./images/github2.jpg"></a>
+                  </span>
+                  <span class="contact-item linkedin-link">
+                    <a href="https://www.linkedin.com/in/kylechutjian/" target="_blank"><img src="./images/linkedin.png"></a>
+                  </span>
+                  <span class="contact-item mail-link">
+                    <a href="mailto:kyle.chutjian@gmail.com" target="_blank"><img src="./images/mail.png"></a>
+                  </span>
+            </div> -->
+          </div>
+
+        <!-- Contact
+        <div id="contact-container">
+          <h1 class="contact-header">Contact Information</h1>
+          <span class="contact-item github2-link">
+            <a href="https://github.com/KyleChutjian/" target="_blank"><img src="./images/github2.jpg"></a>
+          </span>
+          <span class="contact-item linkedin-link">
+            <a href="https://www.linkedin.com/in/kylechutjian/" target="_blank"><img src="./images/linkedin.png"></a>
+          </span>
+          <span class="contact-item mail-link">
+            <a href="mailto:kyle.chutjian@gmail.com" target="_blank"><img src="./images/mail.png"></a>
+          </span>
+      </div> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
